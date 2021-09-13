@@ -30,9 +30,8 @@ const Projects = () => (
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <div style={{ height: "250px" }}>
-              <Img src={image} />
-            </div>
+            <Img src={image} />
+
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr />
@@ -40,15 +39,17 @@ const Projects = () => (
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
-            
-                    <Chip
-                      key={i}
-                      label={tag}
-                      variant="outlined"
-                      size="small"
-                      style={{ fontSize: "1.5rem", backgroundColor: "#26365C", color: "white" }}
-                    ></Chip>
-                  
+                  <Chip
+                    key={i}
+                    label={tag}
+                    variant="outlined"
+                    size="small"
+                    style={{
+                      fontSize: "1.5rem",
+                      backgroundColor: "#26365C",
+                      color: "white",
+                    }}
+                  ></Chip>
                 ))}
               </TagList>
               <UtilityList>
@@ -57,15 +58,15 @@ const Projects = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Code
+                  Source
                 </ExternalLinks>
-                <ExternalLinks
+                {/* <ExternalLinks
                   href={visit}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Source
-                </ExternalLinks>
+                </ExternalLinks> */}
               </UtilityList>
             </TitleContent>
           </BlogCard>
