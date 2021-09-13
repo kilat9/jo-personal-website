@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillRedditCircle} from 'react-icons/ai';
 import { DiCode } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
@@ -32,15 +32,15 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/kilat9">
+      <SocialIcons href="https://github.com/kilat9" target="_blank" rel="noopener noreferrer">
         <AiFillGithub size="3rem"/>
 
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/johari-idzman-bin-dzulkarnain-a92363194/">
+      <SocialIcons href="https://www.linkedin.com/in/johari-idzman-bin-dzulkarnain-a92363194/" target="_blank" rel="noopener noreferrer">
         <AiFillLinkedin size="3rem"/>
 
       </SocialIcons>
-      <SocialIcons href="https://www.reddit.com/user/Kilat9">
+      <SocialIcons href="https://www.reddit.com/user/Kilat9" target="_blank" rel="noopener noreferrer"> 
         <AiFillRedditCircle size="3rem"/>
       </SocialIcons>
     </Div3>

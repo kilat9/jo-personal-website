@@ -128,3 +128,10 @@ border-radius: 50px;
     
   }
 `
+
+export const A = styled.a`
+display: "flex";
+alignItems: "center"; 
+color: "white";
+marginBottom: "20px"
+`
