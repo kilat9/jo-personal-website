@@ -12,7 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
-  ChipStyle,
+  StyledChip,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -33,23 +33,15 @@ const Projects = () => (
             <Img src={image} />
 
             <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
+              <HeaderThree title="true">{title}</HeaderThree>
               <Hr />
               <CardInfo>{description}</CardInfo>
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
-                  <Chip
+                  <StyledChip
                     key={i}
-                    label={tag}
-                    variant="outlined"
-                    size="small"
-                    style={{
-                      fontSize: "1.5rem",
-                      backgroundColor: "#26365C",
-                      color: "white",
-                    }}
-                  ></Chip>
+                  >{tag}</StyledChip>
                 ))}
               </TagList>
               <UtilityList>

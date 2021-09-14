@@ -101,10 +101,11 @@ font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #6b3030;
 border-radius: 15px;
-transition: 0.5s;
+transition: 0.5s ease;
 &:hover{
   background: #801414;
-
+  transform: scale(1.2);
+  cursor: pointer;
 }
 `;
 
@@ -128,3 +129,16 @@ border-radius: 50px,
     transform: scale(1.2),
     cursor: pointer,
 `
+
+export const StyledChip = styled.a`
+font-size: 1.5rem;
+padding:1rem 1.5rem;
+background: #26365C;
+color: "white";
+border-radius: 15px;
+transition: 0.5s ease;
+&:hover{
+  background: #202E4E;
+  transform: scale(1.1);
+}
+`;
