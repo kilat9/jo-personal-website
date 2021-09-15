@@ -27,7 +27,7 @@ if (typeof window === "object") {
       lines.push({
         x: xSpacing,
         y: Math.round(Math.random() * c.height),
-        width: 3,
+        width: 3.5,
         height: Math.round(Math.random() * (innerHeight / 10)),
         speed: Math.random() * maxSpeed + 0.2,
         color: colors[Math.floor(Math.random() * colors.length)],

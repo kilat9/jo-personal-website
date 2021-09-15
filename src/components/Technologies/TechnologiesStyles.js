@@ -30,7 +30,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 40px;
   margin: 3rem 0;
   
@@ -98,9 +98,16 @@ export const ListParagraph = styled.p`
 `
 
 export const ListItem = styled.li`
-  max-width: 320px;
+  max-width: 5rem;
   display: flex;
   flex-direction: column;
+  transition: 0.2s ease;
+  border-radius: 15px;
+  &:hover {
+    background-color: #98C8E2;
+    transform: scale(1.3);
+    cursor: pointer;
+  }
 
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;
@@ -131,3 +138,34 @@ export const ListIcon = styled.img`
     margin-bottom: 0px;
   }
 `
+
+export const StackImage = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  max-width:100%;
+  max-height:100%;
+  margin-bottom: 10px;
+
+  
+ 
+  
+  @media ${props => props.theme.breakpoints.md}{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 8px;
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0px;
+  }
+`
+
+export const StackIconDiv = styled.div`
+  height: 300px;
+
+`
+
+

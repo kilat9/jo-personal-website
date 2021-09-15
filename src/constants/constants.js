@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Flashguard - Melhack 2021',
+    title: 'Flashguard - 2nd Melhack 2021',
     description: "FlashGuard is a Chrome extension that would tell if a Netflix show was safe to watch for people with photosensitive epilepsy. I worked on the companion website that would display the list of Unsafe shows using the Does the dog die API.",
       image: '/images/flashguard.png',
       tags: ['Chrome-Extension', 'React', 'Node'],
@@ -61,4 +61,80 @@ export const TimeLineData = [
   { year: 2019, text: 'Founded JavaScript Mastery', },
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
+];
+
+export const StackList = [
+  {
+    title: 'React.js',
+    description: 'React is a popular JS Framework',
+    image: '/images/StackImage/React.png',
+    id: '0'
+  },
+  {
+    title: 'Node.js',
+    description: 'Node.js is a popular JS Framework',
+    image: '/images/StackImage/Node.png',
+    id: '1'
+  },
+  {
+    title: 'HTML',
+    description: 'HTML is not a programming language',
+    image: '/images/StackImage/HTML.png',
+    id: '2'
+  },
+  {
+    title: 'CSS',
+    description: 'CSS is for styling',
+    image: '/images/StackImage/CSS.png',
+    id: '3'
+  },
+  {
+    title: 'Javascript',
+    description: 'Javascript is the backbone for web-development',
+    image: '/images/StackImage/JS.png',
+    id: '4'
+  },
+  {
+    title: 'PHP',
+    description: 'PHP something something serverside',
+    image: '/images/StackImage/PHP.png',
+    id: '5'
+  },
+  {
+    title: 'Visual Basic (VB.NET)',
+    description: 'Visual Basic coded using Visual Studios',
+    image: '/images/StackImage/VS.png',
+    id: '6'
+  },
+  {
+    title: 'Python',
+    description: 'Python is a powerful high level programming language',
+    image: '/images/StackImage/Python.png',
+    id: '7'
+  },
+  {
+    title: 'Java',
+    description: 'Java is my first Programming language',
+    image: '/images/StackImage/Java.png',
+    id: '8'
+  },
+  {
+    title: 'Netbeans',
+    description: 'Netbeans is a Java IDE',
+    image: '/images/StackImage/Netbeans.png',
+    id: '9'
+  },
+  {
+    title: 'Git',
+    description: 'Git is usefull for managing your codes',
+    image: '/images/StackImage/Git.png',
+    id: '10'
+  },
+  {
+    title: 'Raspberry Pi',
+    description: 'Raspberry Pi is a mini computer',
+    image: '/images/StackImage/Raspberry.png',
+    id: '11'
+  },
+  
 ];

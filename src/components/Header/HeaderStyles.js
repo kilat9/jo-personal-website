@@ -1,5 +1,5 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import { IoIosArrowDropdown } from "react-icons/io";
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
@@ -8,10 +8,11 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-  background-color: #0F1524;
+  background-color: #0f1524;
   z-index: 999;
-  
-
+  position: sticky; 
+  top: 0;
+  overflow: hidden;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -24,8 +25,7 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   font-size: 2rem;
-
-`
+`;
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
@@ -104,8 +104,8 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   display: flex;
   align-self: center;
   transition: 0.3s ease;
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
-  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
+  opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
+  transform: ${({ isOpen }) => (isOpen ? "scaleY(-1)" : "scaleY(1)")};
 
   &:hover {
     opacity: 1;
@@ -117,25 +117,23 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
-// Social Icons 
+// Social Icons
 
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
   padding: 8px;
-&:hover {
+  &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
-`
+`;
 
 export const A = styled.a`
-display: "flex";
-alignItems: "center"; 
-color: "white";
-marginBottom: "20px"
-`
+  display: "flex";
+  alignitems: "center";
+  color: "white";
+  marginbottom: "20px";
+`;

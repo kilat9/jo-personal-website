@@ -4,9 +4,9 @@ import { AiFillGithub, AiFillLinkedin, AiFillRedditCircle} from 'react-icons/ai'
 import { DiCode } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, } from './HeaderStyles';
-
+//style={{position: 'sticky', top:'0', overflow: 'hidden'}}
 const Header = () =>  (
-  <Container style={{position: 'sticky', top:'0', overflow: 'hidden'}}>
+  <Container>
     <Div1>
       <Link href="/">
         <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}}>

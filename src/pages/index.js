@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Layout>
-        <Raining id="c"/>
+        <Raining id="c" />
         <Section grid>
           <Hero />
           <BgAnimation />

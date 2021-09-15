@@ -7,7 +7,6 @@ import {
   GridContainer,
   HeaderThree,
   Hr,
-  Tag,
   TagList,
   TitleContent,
   UtilityList,
@@ -20,7 +19,6 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
-import Chip from "@material-ui/core/Chip";
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -33,15 +31,13 @@ const Projects = () => (
             <Img src={image} />
 
             <TitleContent>
-              <HeaderThree title="true">{title}</HeaderThree>
+              <HeaderThree title="Title">{title}</HeaderThree>
               <Hr />
               <CardInfo>{description}</CardInfo>
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
-                  <StyledChip
-                    key={i}
-                  >{tag}</StyledChip>
+                  <StyledChip key={i}>{tag}</StyledChip>
                 ))}
               </TagList>
               <UtilityList>
