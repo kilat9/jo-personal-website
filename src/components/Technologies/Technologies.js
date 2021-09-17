@@ -2,9 +2,7 @@ import React from "react";
 import { useState } from "react";
 import {
   DiCss3,
-  DiFirebase,
   DiGit,
-  DiGithubBadge,
   DiHtml5,
   DiJava,
   DiJavascript,
@@ -15,7 +13,6 @@ import {
   DiRasberryPi,
   DiReact,
   DiVisualstudio,
-  DiZend,
 } from "react-icons/di";
 import {
   Section,
@@ -25,10 +22,7 @@ import {
 } from "../../styles/GlobalComponents";
 import {
   List,
-  ListContainer,
   ListItem,
-  ListParagraph,
-  ListTitle,
   StackImage,
   StackIconDiv,
 } from "./TechnologiesStyles";
@@ -57,24 +51,27 @@ const Technologies = () => {
 
   return (
     <Section id="tech">
+      <br/>
+      <br/>
       <SectionDivider />
+      <br/>
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
         I've worked with a range of technologies to develop various
         applications. I enjoy learning new frameworks and the challenge that
         comes with it.
       </SectionText>
-      <table>
+      <table >
         <tbody>
-        <tr>
-          <th style={{width:"300px"}}>
+        <tr >
+          <th style={{width:"400px"}}>
           <StackIconDiv>
         <StackImage src={sideImage}></StackImage>
       </StackIconDiv>
           </th>
-          <th>
-          <h2>{stackTitle}</h2>
-          <p style={{width: '500px', marginLeft: 'auto', marginRight: 'auto', marginTop:'10px'}}>{stackDescription}</p>
+          <th style={{verticalAlign: 'top'}}>
+          <h2 style={{marginTop:'70px',}}>{stackTitle}</h2>
+          <p style={{width: '500px', marginLeft: 'auto', marginRight: 'auto', marginTop:'20px'}}>{stackDescription}</p>
           </th>
         </tr>
         </tbody>

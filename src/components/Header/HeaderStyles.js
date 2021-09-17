@@ -40,6 +40,9 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 2 / 2 / 3 / 5;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -61,6 +64,7 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  margin-right: 20px;
   &:hover {
     color: #fff;
     opacity: 1;

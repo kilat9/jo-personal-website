@@ -1,19 +1,36 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText, Img } from "./AcomplishmentsStyles";
+import { Hr } from "../Projects/ProjectsStyles";
+import { accomplishments } from "../../constants/constants";
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
+  <Section id="accomplishments">
+    <br />
+    <br />
+    <SectionDivider />
+    <br />
+    <SectionTitle>Accomplishments</SectionTitle>
+    <Boxes>
+      {accomplishments.map((card, index) => (
+        <Box key={index}>
+          <div style={{ height: "150px" }}>
+            <Img src={card.image} />
+          </div>
+          <div style={{ height: "120px", display: "block", margin: "auto" }}>
+            <BoxNum>{card.title}</BoxNum>
+          </div>
+          <Hr />
+          <BoxText>{card.organization}</BoxText>
+        </Box>
+      ))}
+    </Boxes>
+  </Section>
 );
 
 export default Acomplishments;

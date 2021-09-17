@@ -44,8 +44,7 @@ export const List = styled.ul`
   }
   
   @media ${props => props.theme.breakpoints.sm}{
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
     margin: 32px 0;
   }
 `
@@ -115,7 +114,7 @@ export const ListItem = styled.li`
 
 @media ${props => props.theme.breakpoints.sm}{
   margin-bottom: 14px;
-  max-width: 320px;
+  max-width: 50px;
   flex-direction: row;
 }
 `
@@ -141,11 +140,15 @@ export const ListIcon = styled.img`
 
 export const StackImage = styled.img`
   display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  max-width:100%;
-  max-height:100%;
+  margin-left: auto; 
+margin-right: 0;
+  width: 250px;
+  height: 250px;
+  vertical-align: middle;
+  max-width:250px;
+  max-height:250px;
   margin-bottom: 10px;
+
 
   
  
@@ -164,7 +167,7 @@ export const StackImage = styled.img`
 `
 
 export const StackIconDiv = styled.div`
-  height: 300px;
+  vertical-align: middle;
 
 `
 
