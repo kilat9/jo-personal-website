@@ -17,3 +17,9 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+
+export const Name = styled.a`
+  color: white;
+  font-weight: 800;
+`

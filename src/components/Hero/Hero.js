@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, Name } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
@@ -12,7 +12,7 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I am working on this website to learn more about Web development using React. This website was developed by following this tutorial by <a href="https://www.youtube.com/watch?v=OPaLnMw2i_0" target="_blank" rel="noopener noreferrer">JavaScript Mastery.</a>
+        <Name> I am Johari Idzman bin Dzulkarnain.</Name> I am currently pursuing my degree in Computer Science in Asia Pacific University. Computers have always been my passion and I aspire to develop quality applications.
       </SectionText>
       <Button onClick={() => window.location = 'mailto: johariidzman@gmail.com'}>Contact Me</Button>
     </LeftSection>

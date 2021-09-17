@@ -4,18 +4,18 @@ import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
-import Raining from "../components/Raining/Raining";
+import HeroImage from "../components/HeroImage/HeroImage";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
+
 
 const Home = () => {
   return (
     <>
       <Layout>
-        <Raining id="c" />
         <Section grid>
           <Hero />
-          <BgAnimation />
+          <HeroImage/>
         </Section>
 
         <Projects />

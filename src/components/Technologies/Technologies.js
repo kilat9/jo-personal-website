@@ -81,84 +81,84 @@ const Technologies = () => {
           <DiReact
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(0)}
+            onMouseEnter={() => changeStack(0)}
           />
         </ListItem>
         <ListItem>
           <DiNodejs
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(1)}
+            onMouseEnter={() => changeStack(1)}
           />
         </ListItem>
         <ListItem>
           <DiHtml5
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(2)}
+            onMouseEnter={() => changeStack(2)}
           />
         </ListItem>
         <ListItem>
           <DiCss3
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(3)}
+            onMouseEnter={() => changeStack(3)}
           />
         </ListItem>
         <ListItem>
           <DiJavascript
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(4)}
+            onMouseEnter={() => changeStack(4)}
           />
         </ListItem>
         <ListItem>
           <DiPhp
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(5)}
+            onMouseEnter={() => changeStack(5)}
           />
         </ListItem>
         <ListItem>
           <DiVisualstudio
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(6)}
+            onMouseEnter={() => changeStack(6)}
           />
         </ListItem>
         <ListItem>
           <DiPython
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(7)}
+            onMouseEnter={() => changeStack(7)}
           />
         </ListItem>
         <ListItem>
           <DiJava
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(8)}
+            onMouseEnter={() => changeStack(8)}
           />
         </ListItem>
         <ListItem>
           <DiNetbeans
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(9)}
+            onMouseEnter={() => changeStack(9)}
           />
         </ListItem>
         <ListItem>
           <DiGit
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(10)}
+            onMouseEnter={() => changeStack(10)}
           />
         </ListItem>
         <ListItem>
           <DiRasberryPi
             size={iconSize}
             color={iconColor}
-            onClick={() => changeStack(11)}
+            onMouseEnter={() => changeStack(11)}
           />
         </ListItem>
       </List>

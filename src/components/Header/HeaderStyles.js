@@ -8,7 +8,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-  background-color: #0f1524;
+  background-color: #0F1624;
   z-index: 999;
   position: sticky; 
   top: 0;

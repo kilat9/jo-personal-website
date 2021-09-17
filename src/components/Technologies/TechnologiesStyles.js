@@ -141,7 +141,7 @@ export const ListIcon = styled.img`
 export const StackImage = styled.img`
   display: block;
   margin-left: auto; 
-margin-right: 0;
+  margin-right: 0;
   width: 250px;
   height: 250px;
   vertical-align: middle;
@@ -154,14 +154,14 @@ margin-right: 0;
  
   
   @media ${props => props.theme.breakpoints.md}{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 8px;
   }
 
   @media ${props => props.theme.breakpoints.sm}{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 0px;
   }
 `
