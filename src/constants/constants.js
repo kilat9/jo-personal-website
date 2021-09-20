@@ -43,7 +43,7 @@ export const projects = [
     title: "VILB Library System (Java)",
     description:
       "This Library Management System was developed for the Java Programming module. It allows the user (Librarian) to register new users, add new books and track if a customer borrows and renew books.",
-    image: "/images/VILBJava.png",
+    image: "/images/VILB-Java.png",
     tags: ["Java", "Netbeans Apache IDE"],
     source: "https://github.com/kilat9/LibraryManagementSystem",
     visit: "https://github.com/kilat9/LibraryManagementSystem",
