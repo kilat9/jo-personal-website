@@ -1,44 +1,37 @@
-import {Img} from './HeroImageStyles'
-import { useState, useEffect} from 'react';
+import { Img } from "./HeroImageStyles";
+import { useState, useEffect } from "react";
 
-var index
+var index;
 const HeroImage = () => {
-    const images =[
-        "/images/Jo2.png", "/images/Jo.png"
-    ]
-    const [image, setImage] = useState(images[0])
-    // var timer
+  const images = ["/images/Jo2.png", "/images/Jo.png"];
+  const [image, setImage] = useState(images[0]);
+  // var timer
 
-    // useEffect(() => {
-    //     setInterval(() => {
-    //         if (timer = 0){
-    //             setImage(images[0])
-    //             timer=1
-    //         }else{
-    //             setImage(images[1])
-    //             timer=0;
-    //         }
-    //     }, 3000);
-    //   }, []);
+  // useEffect(() => {
+  //     setInterval(() => {
+  //         if (timer = 0){
+  //             setImage(images[0])
+  //             timer=1
+  //         }else{
+  //             setImage(images[1])
+  //             timer=0;
+  //         }
+  //     }, 3000);
+  //   }, []);
 
-
-    function changeImage(){
-        if(index === 0){
-            setImage(images[0])
-            index = 1;
-            console.log(index)
-        }else{
-            setImage(images[1])
-            index = 0;
-            console.log(index)
-        }
+  function changeImage() {
+    if (index === 0) {
+      setImage(images[0]);
+      index = 1;
+      console.log(index);
+    } else {
+      setImage(images[1]);
+      index = 0;
+      console.log(index);
     }
+  }
 
-    return (
-        <Img onClick={() => changeImage()} src={image} alt="Jo"/>
-    );
+  return <Img onClick={() => changeImage()} src={image} alt="Jo" />;
 };
 
 export default HeroImage;
-    
-

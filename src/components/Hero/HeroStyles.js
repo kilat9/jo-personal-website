@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
@@ -18,8 +18,7 @@ export const LeftSection = styled.div`
   }
 `;
 
-
 export const Name = styled.a`
   color: white;
   font-weight: 800;
-`
+`;

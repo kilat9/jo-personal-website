@@ -25,6 +25,10 @@ import {
   ListItem,
   StackImage,
   StackIconDiv,
+  StackDisplay,
+  StackText,
+  ListTitle,
+  StackDescription,
 } from "./TechnologiesStyles";
 import { StackList } from "../../constants/constants";
 
@@ -35,47 +39,41 @@ const Technologies = () => {
 
   const [sideImage, setSideImage] = useState(defaultPicture);
   const [stackTitle, setTitle] = useState("My Stacks");
-  const [stackDescription, setStackDescription] = useState("I have been exposed to various tech stacks in my programming journey. Click on the stack Icon to know more.");
-  
-  function changeStack(index){
-    const title = StackList[index]['title'];
-    const description = StackList[index]['description'];
-    const image = StackList[index]['image'];
+  const [stackDescription, setStackDescription] = useState(
+    "I have been exposed to various tech stacks in my programming journey. Click on the stack Icon to know more."
+  );
 
-    setSideImage(image)
-    setTitle(title)
-    setStackDescription(description)
+  function changeStack(index) {
+    const title = StackList[index]["title"];
+    const description = StackList[index]["description"];
+    const image = StackList[index]["image"];
+
+    setSideImage(image);
+    setTitle(title);
+    setStackDescription(description);
   }
-
-
 
   return (
     <Section id="tech">
-      <br/>
-      <br/>
+      <br />
+      <br />
       <SectionDivider />
-      <br/>
+      <br />
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
         I've worked with a range of technologies to develop various
         applications. I enjoy learning new frameworks and the challenge that
         comes with it.
       </SectionText>
-      <table >
-        <tbody>
-        <tr >
-          <th style={{width:"400px"}}>
-          <StackIconDiv>
-        <StackImage src={sideImage}></StackImage>
-      </StackIconDiv>
-          </th>
-          <th style={{verticalAlign: 'top'}}>
-          <h2 style={{marginTop:'70px',}}>{stackTitle}</h2>
-          <p style={{width: '500px', marginLeft: 'auto', marginRight: 'auto', marginTop:'20px'}}>{stackDescription}</p>
-          </th>
-        </tr>
-        </tbody>
-      </table>
+      <StackDisplay>
+        <StackIconDiv>
+          <StackImage src={sideImage}></StackImage>
+        </StackIconDiv>
+        <StackText>
+          <ListTitle>{stackTitle}</ListTitle>
+          <StackDescription>{stackDescription}</StackDescription>
+        </StackText>
+      </StackDisplay>
       <List>
         <ListItem>
           <DiReact

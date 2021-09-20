@@ -35,18 +35,18 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <SocialContainer>
-          <CompanyContainer>
-            <Slogan>
-              This website was developed by following this tutorial by{" "}
-              <a
-                href="https://www.youtube.com/watch?v=OPaLnMw2i_0"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                JavaScript Mastery.
-              </a>
-            </Slogan>
+        <CompanyContainer>
+          <Slogan>
+            This website was developed by following this tutorial by{" "}
+            <a
+              href="https://www.youtube.com/watch?v=OPaLnMw2i_0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              JavaScript Mastery.
+            </a>
+          </Slogan>
+          <SocialContainer>
             <SocialIcons
               href="https://github.com/kilat9"
               target="_blank"
@@ -75,8 +75,8 @@ const Footer = () => {
             >
               <AiFillRedditCircle size="3rem" />
             </SocialIcons>
-          </CompanyContainer>
-        </SocialContainer>
+          </SocialContainer>
+        </CompanyContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );
