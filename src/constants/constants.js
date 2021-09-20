@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Machine Spirit - Discord Bot",
     description:
-      "The Machine Spirit is a Discord bot developed in Python. The bot can play pre-selected songs and has an 8-ball module that answers questions.",
+      "Machine Spirit is a Discord bot developed in Python. The bot can play pre-selected songs and has an 8-ball module that answers questions.",
     image: "/images/MachineSpirit.png",
     tags: ["Python", "Discord.py"],
     source: "https://github.com/kilat9/machine_spirit-Discord_Bot",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Libsys : Library Management System",
     description:
-      "The project will cover a library book management developed for the SDP module. I worked on the registration and account management feature using HTML and PHP.",
+      "This project is a library book management developed for the SDP module. I worked on the registration and account management feature using HTML and PHP.",
     image: "/images/Libsys.png",
     tags: ["HTML", "CSS", "JavaScript"],
     source: "https://github.com/Diskordlit/libsys",
@@ -65,7 +65,7 @@ export const TimeLineData = [
   { year: 2017, text: "Started Computer Science stream in Highschool" },
   {
     year: 2018,
-    text: "Took my SPM with an A+ in the Computer Science subject",
+    text: "Took my SPM with an A+ in Computer Science",
   },
   { year: 2019, text: "Enrolled into Diploma of ICT(SE) at APU" },
   { year: 2020, text: "Learned advanced Programming concepts" },
@@ -76,14 +76,14 @@ export const StackList = [
   {
     title: "React.js",
     description:
-      "React is a popular JS Framework for developing single-page web applications. I was first exposed to it during my internship and has now become my go to stack for front-end web development.",
+      "React is a popular JS Framework for developing single-page web applications. I was first exposed to it during my internship and has now become my default stack for front-end web development.",
     image: "/images/StackImage/React.png",
     id: "0",
   },
   {
     title: "Node.js",
     description:
-      "Node.js allows Javascript code to be executed on the server-side. I have a basic understanding of Node.js and hope to improve in the future. ",
+      "Node.js allows Javascript code to be executed on the server-side. It is used as the base of various projects such as Flashguard and this portfolio website. ",
     image: "/images/StackImage/Node.png",
     id: "1",
   },
@@ -132,7 +132,7 @@ export const StackList = [
   {
     title: "Java",
     description:
-      "Java was my first programming language that I learned in Highschool. I learned key OOP concepts such as inheritance and polymorphism in Java.",
+      "Java was the first programming language that I learnt in Highschool. I learned key OOP concepts such as inheritance and polymorphism in Java.",
     image: "/images/StackImage/Java.png",
     id: "8",
   },
@@ -146,14 +146,14 @@ export const StackList = [
   {
     title: "Git",
     description:
-      "Git is a usefull Version Control System for managing your codes. I first learned git during my internship and have applied the knowlwdge by maintaining various personal projects in Github repositories.",
+      "Git is a usefull Version Control System for managing your codes. I first learnt git during my internship and have applied the knowlwdge by maintaining various personal projects in Github repositories.",
     image: "/images/StackImage/Git.png",
     id: "10",
   },
   {
     title: "Raspberry Pi",
     description:
-      "Raspberry Pi is a mini computer that has though me the basics of Linux command line is currently used as a Web-server.",
+      "Raspberry Pi is a mini computer that has taught me the basics of Linux command line is currently used as a Web-server.",
     image: "/images/StackImage/Raspberry.png",
     id: "11",
   },
@@ -174,5 +174,10 @@ export const accomplishments = [
     title: "Head of Youth Development",
     organization: "APU Student Activities and Representative Council (SARC)",
     image: "/images/SARC.png",
+  },
+  {
+    title: "School Prefect",
+    organization: "Victoria Institution Prefects' Board of 2018",
+    image: "/images/VIPB.png",
   },
 ];
