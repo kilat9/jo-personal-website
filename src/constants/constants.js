@@ -62,7 +62,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started Computer Science stream in Highschool" },
+  { year: 2017, text: "Started Computer Science stream at Victoria Institution" },
   {
     year: 2018,
     text: "Took my SPM with an A+ in Computer Science",
