@@ -16,7 +16,7 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        <Name> I am Johari Idzman bin Dzulkarnain.</Name> I am currently
+        <Name> My name is Johari Idzman bin Dzulkarnain.</Name> I am currently
         pursuing my degree in Computer Science in Asia Pacific University.
         Computers have always been my passion and I aspire to develop quality
         applications.
