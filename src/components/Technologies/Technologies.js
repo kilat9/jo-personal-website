@@ -34,7 +34,7 @@ import { StackList } from "../../constants/constants";
 
 const Technologies = () => {
   const iconSize = "5rem";
-  const defaultPicture = "/images/StackImage/Code.png";
+  const defaultPicture = "./jo-personal-website/images/StackImage/Code.png";
   const iconColor = "white";
 
   const [sideImage, setSideImage] = useState(defaultPicture);
