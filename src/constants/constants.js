@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Flashguard - Melhack 2021",
     description:
-      "FlashGuard is a Chrome extension that would tell if a Netflix show was safe to watch for people with photosensitive epilepsy. I worked on the companion website that would display the list of Unsafe shows using the Does the dog die API.",
+      "FlashGuard is a Chrome extension that would tell if a Netflix show was safe to watch for people with photosensitive epilepsy. I worked on the companion website that would display the list of Unsafe shows using the 'Does the dog die API'.",
     image: "./images/flashguard.png",
     tags: ["Chrome-Extension", "React", "Node"],
     source: "https://github.com/Diskordlit/FlashGuard",
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "TixEdu - Online Learning Website",
     description:
-      "This website is an online course education platform developed for the Web Development module. I worked on the back-end to allow users manage their accounts with CRUD functions implemented.",
+      "This website is an online course education platform developed for the Web Development module. I worked on the back-end to allow users to manage their accounts with CRUD functions implemented.",
     image: "./images/TixEdu.png",
     tags: ["HTML", "CSS", "JavaScript"],
     source: "https://github.com/kilat9/TixEdu-Website",
@@ -63,13 +63,11 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2017, text: "Started Computer Science stream at Victoria Institution" },
-  {
-    year: 2018,
-    text: "Took my SPM with an A+ in Computer Science",
-  },
+  { year: 2018, text: "Took my SPM with an A+ in Computer Science",},
   { year: 2019, text: "Enrolled into Diploma of ICT(SE) at APU" },
-  { year: 2020, text: "Learned advanced Programming concepts" },
+  { year: 2020, text: "Head of Youth Development for APU SARC" },
   { year: 2021, text: "Interned as a Fullstack Engineer at Setel Ventures" },
+  { year: 2022, text: "Started Degree in Computer Science (IS) and interned at Standard Chartered" },
 ];
 
 export const StackList = [
