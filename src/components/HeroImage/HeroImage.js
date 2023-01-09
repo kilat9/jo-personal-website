@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 var index;
 const HeroImage = () => {
-  const images = ["./jo-personal-website/images/Jo2.png", "./jo-personal-website/images/Jo.png"];
+  const images = ["./images/Jo2.png", "./images/Jo.png"];
   const [image, setImage] = useState(images[0]);
   // var timer
 
