@@ -31,7 +31,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href="#accomplishments">
-          <NavLink>Accomplishment</NavLink>
+          <NavLink>Accomplishments</NavLink>
         </Link>
       </li>
     </Div2>

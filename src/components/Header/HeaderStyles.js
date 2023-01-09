@@ -17,7 +17,7 @@ export const Container = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 60px);
+    grid-template-rows: repeat(2, 30px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
@@ -72,6 +72,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 1rem;
   }
 `;
 

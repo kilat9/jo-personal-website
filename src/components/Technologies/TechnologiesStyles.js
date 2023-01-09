@@ -88,11 +88,14 @@ export const ListTitle = styled.h4`
 `;
 
 export const ListItem = styled.li`
+margin-left: auto;
+  margin-right: auto;
   max-width: 5rem;
   display: flex;
   flex-direction: column;
   transition: 0.2s ease;
   border-radius: 15px;
+  
   &:hover {
     background-color: #98c8e2;
     transform: scale(1.3);
@@ -113,7 +116,7 @@ export const ListItem = styled.li`
 export const StackImage = styled.img`
   display: block;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: auto;
   width: 250px;
   height: 250px;
   vertical-align: middle;
@@ -128,8 +131,8 @@ export const StackImage = styled.img`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 0px;
   }
 `;

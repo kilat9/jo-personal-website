@@ -38,16 +38,19 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 250px;
+    height: 450px;
     padding: 16px;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 250px;
+    height: 450px;
     padding: 12px;
     
-    &:nth-child(2n){
-      grid-row:2;
+    &:hover {
+      transform: scale(1.0);
     }
   }
 `
