@@ -47,9 +47,9 @@ const Header = () =>  (
       <SocialIcons href="https://www.facebook.com/profile.php?id=100004719644702" target="_blank" rel="noopener noreferrer"> 
         <AiFillFacebook size="3rem"/>
       </SocialIcons>
-      <SocialIcons href="https://www.reddit.com/user/Kilat9" target="_blank" rel="noopener noreferrer"> 
+      {/* <SocialIcons href="https://www.reddit.com/user/Kilat9" target="_blank" rel="noopener noreferrer"> 
         <AiFillRedditCircle size="3rem"/>
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 );

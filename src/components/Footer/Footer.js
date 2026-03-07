@@ -68,13 +68,13 @@ const Footer = () => {
             >
               <AiFillFacebook size="3rem" />
             </SocialIcons>
-            <SocialIcons
+            {/* <SocialIcons
               href="https://www.reddit.com/user/Kilat9"
               target="_blank"
               rel="noopener noreferrer"
             >
               <AiFillRedditCircle size="3rem" />
-            </SocialIcons>
+            </SocialIcons> */}
           </SocialContainer>
         </CompanyContainer>
       </SocialIconsContainer>

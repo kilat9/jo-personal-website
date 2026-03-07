@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "AI Manga Translator Extension",
+    description:
+      "A Chrome extension powered by AI that seamlessly translates and typesets raw Japanese manga directly within the browser.",
+    image: "./images/manga-translator.svg", 
+    tags: ["Chrome-Extension", "JavaScript", "AI / LLM"],
+    source: "https://github.com/kilat9/gemini-manga-translator",
+    visit: "https://github.com/kilat9/gemini-manga-translator",
+    id: 0,
+  },
+  {
     title: "Flashguard - Melhack 2021",
     description:
       "FlashGuard is a Chrome extension that would tell if a Netflix show was safe to watch for people with photosensitive epilepsy. I worked on the companion website that would display the list of Unsafe shows using the 'Does the dog die API'.",
@@ -7,7 +17,7 @@ export const projects = [
     tags: ["Chrome-Extension", "React", "Node"],
     source: "https://github.com/Diskordlit/FlashGuard",
     visit: "https://devpost.com/software/flashguard",
-    id: 0,
+    id: 1,
   },
   {
     title: "Machine Spirit - Discord Bot",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["Python", "Discord.py"],
     source: "https://github.com/kilat9/machine_spirit-Discord_Bot",
     visit: "https://github.com/kilat9/machine_spirit-Discord_Bot",
-    id: 1,
+    id: 2,
   },
   {
     title: "Libsys : Library Management System",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     source: "https://github.com/Diskordlit/libsys",
     visit: "https://github.com/Diskordlit/libsys",
-    id: 2,
+    id: 3,
   },
   {
     title: "TixEdu - Online Learning Website",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     source: "https://github.com/kilat9/TixEdu-Website",
     visit: "https://github.com/kilat9/TixEdu-Website",
-    id: 3,
+    id: 4,
   },
   {
     title: "VILB Library System (Java)",
@@ -47,7 +57,7 @@ export const projects = [
     tags: ["Java", "Netbeans Apache IDE"],
     source: "https://github.com/kilat9/LibraryManagementSystem",
     visit: "https://github.com/kilat9/LibraryManagementSystem",
-    id: 4,
+    id: 5,
   },
   {
     title: "Cafeteria Management System",
@@ -57,17 +67,15 @@ export const projects = [
     tags: ["Visual Basic", "VB.NET", "Visual Studio"],
     source: "https://github.com/kilat9/CafeteriaSystem-VisualBasic",
     visit: "https://github.com/kilat9/CafeteriaSystem-VisualBasic",
-    id: 5,
+    id: 6,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started Computer Science stream at Victoria Institution" },
-  { year: 2018, text: "Took my SPM with an A+ in Computer Science",},
-  { year: 2019, text: "Enrolled into Diploma of ICT(SE) at APU" },
-  { year: 2020, text: "Head of Youth Development for APU SARC" },
-  { year: 2021, text: "Interned as a Fullstack Engineer at Setel Ventures" },
-  { year: 2022, text: "Started Degree in Computer Science (IS) and interned at Standard Chartered" },
+  { year: 2018, text: "Took my SPM with an A+ in Computer Science at Victoria Institution" },
+  { year: "2019-2020", text: "Completed Diploma in Information Technology (Software Engineering) at APU" },
+  { year: "2021-2023", text: "Pursued Bachelor of Computer Science (Intelligent Systems) at APU, including internships at Setel and Standard Chartered" },
+  { year: "2024-Present", text: "Graduated as Valedictorian. Started at Standard Chartered as a Development Analyst" },
 ];
 
 export const StackList = [
@@ -158,6 +166,16 @@ export const StackList = [
 ];
 
 export const accomplishments = [
+    {
+    title: "AWS Certified Solutions Architect - Associate",
+    organization: "Amazon Web Services (AWS)",
+    image: "./images/aws.png", // NOTE: You will need to add an AWS badge image here
+  },
+  {
+    title: "Valedictorian (March 2024)",
+    organization: "Asia Pacific University of Technology and Innovation",
+    image: "./images/apu.jpg", // NOTE: You will need to add an APU logo or graduation icon here
+  },
   {
     title: "2nd Place For Melhack 2021",
     organization: "Melbourne University",
@@ -172,10 +190,5 @@ export const accomplishments = [
     title: "Head of Youth Development",
     organization: "APU Student Activities and Representative Council (SARC)",
     image: "./images/SARC.png",
-  },
-  {
-    title: "School Prefect",
-    organization: "Victoria Institution Prefects' Board of 2018",
-    image: "./images/VIPB.png",
   },
 ];
