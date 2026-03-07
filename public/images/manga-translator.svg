@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" rx="20" fill="#192133" />
+  
+  <circle cx="200" cy="140" r="70" fill="#00E6F6" opacity="0.15" filter="blur(20px)" />
+
+  <path d="M120 100 C120 60, 280 60, 280 100 C280 140, 220 160, 190 190 C200 160, 120 160, 120 100 Z" 
+        fill="#0F1624" 
+        stroke="#00E6F6" 
+        stroke-width="4" 
+        stroke-linejoin="round"/>
+
+  <text x="155" y="125" font-family="sans-serif" font-size="36" font-weight="bold" fill="#FFFFFF">あ</text>
+  
+  <path d="M190 115 L210 115 M200 105 L210 115 L200 125" 
+        fill="none" 
+        stroke="#8892B0" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <text x="220" y="125" font-family="'Inter', sans-serif" font-size="36" font-weight="bold" fill="#00E6F6">A</text>
+
+  <path d="M260 65 L265 75 L275 80 L265 85 L260 95 L255 85 L245 80 L255 75 Z" fill="#00E6F6" />
+  <path d="M280 50 L283 57 L290 60 L283 63 L280 70 L277 63 L270 60 L277 57 Z" fill="#FFFFFF" opacity="0.8" />
+</svg>
